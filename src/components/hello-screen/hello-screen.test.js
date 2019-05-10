@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import HelloScreen from '../hello-screen/hello-screen.jsx';
 
-it(`App corectly renders`, () => {
+it(`App correctly renders`, () => {
   const tree = renderer
   .create(<HelloScreen
     totalTime={0}
